@@ -7,6 +7,12 @@ Consecutive trackpoints where the position did not change are detected as pause.
 so Strava won't detect any pauses. If activities are exported from Runtastic (Adidas Running), cleaned by the script and imported to Strava, the activity details
 on Strava sometimes diverge from the activity details on Runtastic by a few seconds but are plausible in general.
 
+## Runtastic Activity Data
+![Runtastic Data](/readme-images/runtastic.jpg)
+## Strava Activity Data with cleaned gpx file
+![Strava Data](/readme-images/strava.jpg)
+
+
 # Usage
 ## Prerequisits
 - python needs to be installed
