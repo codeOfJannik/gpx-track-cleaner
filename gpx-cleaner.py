@@ -74,4 +74,10 @@ def main(directory):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1:])
+    if len(sys.argv) > 2:
+        print("Too many arguments! Pass only one directory of gpx files!")
+        sys.exit(1)
+    if len(sys.argv) < 2:
+        print("No argument found! Pass path of directory of gpx files as argument.")
+        sys.exit(1)
+    main(sys.argv[1])
