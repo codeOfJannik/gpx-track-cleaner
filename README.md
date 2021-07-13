@@ -24,7 +24,7 @@ Run from command line:
 ```
 python3 gpx-cleaner.py <path-to-directory-with-gpx-files>
 ```
-Insert as argument the path of the directory that contains the gpx files.
+Insert the path of the directory that contains the gpx files as argument.
 
 ## Result
-The cleaned gpx files are stored in a subdirectory `/output` of the passed argument directory.
+The cleaned gpx files are stored in a subdirectory `/output` of the passed directory.
